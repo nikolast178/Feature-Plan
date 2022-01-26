@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database content_db_lang_sl="item" content_db_lang_pl="items" content_db_lang_su="Item" content_db_lang_pu="Items" content_db_lang_ia="">
+ <data use_categories="0" template_listing="plan_4" template_display="display" template_categories="category_index" all_editable="0" revisions="1" field_title="12" field_content="10" field_sort="field_11" field_direction="asc" field_perpage="50" comment_approve="0" record_approve="0" rss="0" comment_bump="2" forum_record="0" forum_comments="0" forum_delete="0" forum_forum="0" forum_prefix="" forum_suffix="" search="1" tags_enabled="0" tags_noprefixes="1" tags_predefined="" cat_index_type="0" template_form="form" template_featured="category_articles" options="0">
+  <fixed_field_perms><![CDATA[{"record_image":{"visible":false,"perm_view":"*","perm_2":"*","perm_3":"*"}}]]></fixed_field_perms>
+  <featured_settings><![CDATA[{"featured":false,"perpage":10,"pagination":false,"sort":"record_publish_date","direction":"desc","categories":0}]]></featured_settings>
+  <name><![CDATA[Feature Plan]]></name>
+  <description><![CDATA[]]></description>
+ </data>
+ <field field_id="9" field_key="summary" field_type="Text" field_required="1" field_user_editable="0" field_position="2" field_max_length="0" field_html="0" field_truncate="0" field_display_listing="1" field_display_display="1" field_format_opts="" field_validator="0" field_topic_format="" field_filter="0" field_allowed_extensions="[]" field_is_multiple="0" field_is_searchable="0" field_validator_custom="" field_display_commentform="0" field_unique="0" field_allow_attachments="1">
+  <field_extra>[{&quot;key&quot;:&quot;0&quot;,&quot;value&quot;:&quot;0,0,,&quot;}]</field_extra>
+  <field_default_value></field_default_value>
+  <field_name>Summary</field_name>
+  <field_description>A short overview about this feature</field_description>
+  <field_display_json>{&quot;display&quot;:{&quot;method&quot;:&quot;1&quot;,&quot;html&quot;:&quot;&quot;},&quot;listing&quot;:{&quot;method&quot;:&quot;none&quot;,&quot;html&quot;:&quot;&quot;,&quot;right&quot;:false}}</field_display_json>
+  <field_validator_error></field_validator_error>
+ </field>
+ <field field_id="10" field_key="descriptiondata" field_type="Editor" field_required="1" field_user_editable="0" field_position="3" field_max_length="0" field_html="0" field_truncate="0" field_display_listing="0" field_display_display="0" field_format_opts="" field_validator="0" field_topic_format="" field_filter="0" field_allowed_extensions="[]" field_is_multiple="0" field_is_searchable="1" field_validator_custom="" field_display_commentform="0" field_unique="0" field_allow_attachments="1">
+  <field_extra>[{&quot;key&quot;:&quot;&quot;,&quot;value&quot;:&quot;&quot;}]</field_extra>
+  <field_default_value></field_default_value>
+  <field_name>Description</field_name>
+  <field_description></field_description>
+  <field_display_json>{&quot;display&quot;:{&quot;method&quot;:&quot;1&quot;,&quot;html&quot;:&quot;&quot;},&quot;listing&quot;:{&quot;method&quot;:&quot;1&quot;,&quot;html&quot;:&quot;&quot;,&quot;right&quot;:false}}</field_display_json>
+  <field_validator_error></field_validator_error>
+ </field>
+ <field field_id="11" field_key="status2" field_type="Select" field_required="1" field_user_editable="0" field_position="4" field_max_length="0" field_html="0" field_truncate="0" field_display_listing="1" field_display_display="1" field_format_opts="" field_validator="0" field_topic_format="" field_filter="1" field_allowed_extensions="[]" field_is_multiple="0" field_is_searchable="0" field_validator_custom="" field_display_commentform="0" field_unique="0" field_allow_attachments="1">
+  <field_extra>{&quot;1&quot;:&quot;Next Up&quot;,&quot;2&quot;:&quot;Coming Soon&quot;,&quot;3&quot;:&quot;Planning Stage&quot;,&quot;4&quot;:&quot;Complete&quot;}</field_extra>
+  <field_default_value></field_default_value>
+  <field_name>Status</field_name>
+  <field_description></field_description>
+  <field_display_json><![CDATA[{"display":{"method":"1","html":""},"listing":{"method":"custom","html":"{{if intval( $formValue ) === 1}}\r\n\t<span class='c4StatusBadge c4StatusBadge_upNext'>{$value}<\/span>\r\n{{elseif intval( $formValue ) === 2}}\r\n\t<span class='c4StatusBadge c4StatusBadge_comingSoon'>{$value}<\/span>\r\n{{elseif intval( $formValue ) === 3}}\r\n\t<span class='c4StatusBadge c4StatusBadge_future'>{$value}<\/span>\r\n{{elseif intval( $formValue ) === 4}}\r\n\t<span class='c4StatusBadge c4StatusBadge_done'>{$value}<\/span>\r\n{{endif}}"}}]]></field_display_json>
+  <field_validator_error></field_validator_error>
+ </field>
+ <field field_id="12" field_key="titlefield_26" field_type="Text" field_required="1" field_user_editable="1" field_position="1" field_max_length="255" field_html="0" field_truncate="100" field_display_listing="1" field_display_display="1" field_format_opts="" field_validator="0" field_topic_format="" field_filter="0" field_allowed_extensions="[]" field_is_multiple="0" field_is_searchable="1" field_validator_custom="" field_display_commentform="0" field_unique="0" field_allow_attachments="1">
+  <field_extra>[{&quot;key&quot;:&quot;&quot;,&quot;value&quot;:&quot;&quot;}]</field_extra>
+  <field_default_value></field_default_value>
+  <field_name>Title</field_name>
+  <field_description></field_description>
+  <field_display_json>{&quot;display&quot;:{&quot;method&quot;:&quot;1&quot;,&quot;html&quot;:&quot;&quot;},&quot;listing&quot;:{&quot;method&quot;:&quot;1&quot;,&quot;html&quot;:&quot;&quot;,&quot;right&quot;:false}}</field_display_json>
+  <field_validator_error></field_validator_error>
+ </field>
+ <category category_id="4" category_parent_id="0" category_position="0" category_records_queued="0" category_has_perms="0" category_show_records="1" category_furl_name="records" category_allow_rating="0" category_fields="" category_records_future="0" category_record_reviews="0" category_record_reviews_queued="0" category_options="0" category_template_listing="" category_template_display="" category_can_view_others="1">
+  <category_name>Records</category_name>
+  <category_description></category_description>
+ </category>
+ <template template_title="categoryFooter" template_group="plan_4" template_location="database" template_original_group="listing">
+  <template_params>$category, $table, $activeFilters</template_params>
+  <template_content><![CDATA[
+{{if ! \IPS\Request::i()->isAjax() AND ! isset( \IPS\Request::i()->advancedSearchForm ) AND $category->show_records}}
+	<ul class="ipsToolList ipsToolList_horizontal ipsClearfix ipsSpacer_both ipsResponsive_showPhone ipsResponsive_block">
+		{{if $category->can('add')}}
+			<li class='ipsToolList_primaryAction'>
+				<a class="ipsButton ipsButton_medium ipsButton_important ipsButton_fullWidth" href="{$category->url()->setQueryString( array( 'do' => 'form', 'd' => \IPS\cms\Databases\Dispatcher::i()->databaseId ) )}">{lang="cms_add_new_record_button" sprintf="\IPS\cms\Databases::load( $category->database_id )->recordWord( 1 )"}</a>
+			</li>
+		{{endif}}
+		{{if \IPS\Member::loggedIn()->member_id}}
+			<li>
+				<a class="ipsButton ipsButton_medium ipsButton_fullWidth ipsButton_link" href="{$category->url()->setQueryString( 'do', 'markRead' )->csrf()}"><i class="fa fa-check"></i> {lang="cms_mark_read"}</a>
+			</li>
+		{{endif}}
+	</ul>
+{{endif}}
+
+{{if !\IPS\Request::i()->advancedSearchForm}}
+	<div class="ipsResponsive_showPhone ipsResponsive_block ipsSpacer ipsSpacer_both ipsClearfix">
+		{template="follow" app="core" group="global" params="'cms','categories' . $category->database_id, $category->_id, \IPS\cms\Records::containerFollowerCount( $category )"}
+	</div>
+{{endif}}
+]]></template_content>
+ </template>
+ <template template_title="categoryHeader" template_group="plan_4" template_location="database" template_original_group="listing">
+  <template_params>$category, $table, $activeFilters</template_params>
+  <template_content><![CDATA[<style>
+  .c4StatusTable {
+  max-width: 800px;
+  margin: 0 auto;
+  
+}
+
+.c4StatusRow {
+  display: block;
+}
+
+.c4StatusRow:not( .ipsModerated ):hover {
+  background: #212224;
+}
+
+.c4StatusRow .ipsColumn_medium {
+  width: 190px;
+}
+
+.c4StatusBadge {
+  line-height: 28px;
+  padding: 0 10px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 500;
+  display: block;
+  color: #FFFF;
+  text-align: center;
+}
+
+.c4StatusBadge_upNext {
+  background: #2980b9; 
+}
+
+.c4StatusBadge_comingSoon {
+  background: #d35400;
+}
+
+.c4StatusBadge_future {
+ background: #2c3e50; 
+}
+
+.c4StatusBadge_done {
+  background: #27ae60;
+}
+</style>
+<div class='ipsType_center ipsSpacer_bottom ipsSpacer_top'>
+	<h1 class="ipsType_veryLarge ipsType_reset">BG-GAMER Feature Plan</h1>
+	<div class='ipsType_richText ipsType_large ipsType_light ipsSpacer_bottom'>
+		Keep up to date with what we have planned for the community.
+	</div>
+  	<div class='ipsResponsive_noFloat ipsResponsive_hidePhone'>
+		{template="follow" app="core" group="global" params="'cms','categories' . $category->database_id, $category->_id, \IPS\cms\Records::containerFollowerCount( $category )"}
+	</div>
+</div>
+
+{{if ! \IPS\Request::i()->isAjax() AND ! isset( \IPS\Request::i()->advancedSearchForm ) AND $category->show_records}}
+	<ul class="ipsToolList ipsToolList_horizontal ipsClearfix ipsSpacer_both ipsResponsive_hidePhone">
+		{{if $category->can('add')}}
+			<li class='ipsToolList_primaryAction'>
+				<a class="ipsButton ipsButton_medium ipsButton_important ipsButton_fullWidth" href="{$category->url()->setQueryString( array( 'do' => 'form', 'd' => \IPS\cms\Databases\Dispatcher::i()->databaseId ) )}">{lang="cms_add_new_record_button" sprintf="\IPS\cms\Databases::load( $category->database_id )->recordWord( 1 )"}</a>
+			</li>
+		{{endif}}
+	</ul>
+{{endif}}
+
+{{if count( $activeFilters )  AND ! isset( \IPS\Request::i()->advancedSearchForm )}}
+	{template="filterMessage" app="cms" location="database" group="plan_4" params="$activeFilters, $category"}
+{{endif}}]]></template_content>
+ </template>
+ <template template_title="categoryTable" template_group="plan_4" template_location="database" template_original_group="listing">
+  <template_params>$table, $headers, $rows, $quickSearch</template_params>
+  <template_content><![CDATA[<div class='c4StatusTable' data-baseurl='{$table->baseUrl}' data-resort='{$table->resortKey}' data-controller='core.global.core.table{{if $table->canModerate()}},core.front.core.moderation{{endif}}'>
+	{{if ! count($rows)}}
+		<div class="ipsPad">
+			{lang="cms_no_records_to_show" sprintf="\IPS\cms\Databases::load( \IPS\cms\Databases\Dispatcher::i()->databaseId )->recordWord()"}
+		</div>
+	{{else}}
+		<ol class='ipsDataList ipsDataList_zebra ipsClear cCmsListing {{foreach $table->classes as $class}}{$class} {{endforeach}}' id='elTable_{$table->uniqueId}' data-role="tableRows">
+			{template="$table->rowsTemplate[1]" params="$table, $headers, $rows" object="$table->rowsTemplate[0]"}
+		</ol>
+	{{endif}}
+</div>]]></template_content>
+ </template>
+ <template template_title="filterMessage" template_group="plan_4" template_location="database" template_original_group="listing">
+  <template_params>$activeFilters, $category</template_params>
+  <template_content><![CDATA[<div class='ipsMessage ipsMessage_general'>
+	<a href='{$category->url()->setQueryString( array( "do" => "clearFilters", 'd' => \IPS\cms\Databases\Dispatcher::i()->databaseId ) )}' class='ipsPos_right ipsButton ipsButton_veryLight ipsButton_verySmall'>{lang="cms_database_filtered_clear"}</a>
+	{lang="cms_database_filtered_by"}
+	{{foreach $activeFilters as $id => $data}}
+		{$data['field']->_title} ({$data['value']})
+	{{endforeach}}
+</div>]]></template_content>
+ </template>
+ <template template_title="recordRow" template_group="plan_4" template_location="database" template_original_group="listing">
+  <template_params>$table, $headers, $rows</template_params>
+  <template_content><![CDATA[{{$rowIds = array();}}
+{{foreach $rows as $row}}
+{{$idField = $row::$databaseColumnId;}}
+{{$rowIds[] = $row->$idField;}}
+{{endforeach}}
+{{$iposted = ( $table AND method_exists( $table, 'container' ) AND $table->container() !== NULL ) ? $table->container()->contentPostedIn( null, $rowIds ) : array();}}
+ 
+{{foreach $rows as $row}}
+{{$idField = $row::$databaseColumnId;}}
+<li class="ipsSpacer_bottom c4StatusRow ipsAreaBackground_light ipsPad" data-rowID='{$row->$idField}'>
+    <div class='ipsColumns ipsColumns_collapsePhone'>
+        <a href='#' class='c4StatusRow ipsAreaBackground_light {{if $row->fieldValues()['field_6'] == '4'}}ipsFaded{{endif}} ipsType_blendLinks {{if $row->hidden()}}ipsModerated{{endif}}' data-ipsDialog data-ipsDialog-title="{$row->_title}" data-ipsDialog-size='medium' data-ipsDialog-content='#el4StatusInfo_{$row->$idField}'>
+            <h4 class='ipsType_sectionHead ipsType_break'>
+                <strong>{{if $row->_title}}{$row->_title}{{else}}<em class="ipsType_light">{lang="content_deleted"}</em>{{endif}}</strong>
+            </h4>
+            {{if $row->isFutureDate() || $row->mapped('pinned') || $row->mapped('featured') || $row->hidden() === -1 || $row->hidden() === 1}}
+            <span>
+                {{if $row->isFutureDate()}}
+                <span class="ipsBadge ipsBadge_icon ipsBadge_small ipsBadge_warning" data-ipsTooltip title='{$row->futureDateBlurb()}'><i class='fa fa-clock-o'></i></span>
+                {{elseif $row->hidden() === -1}}
+                <span class="ipsBadge ipsBadge_icon ipsBadge_small ipsBadge_warning" data-ipsTooltip title='{$row->hiddenBlurb()}'><i class='fa fa-eye-slash'></i></span>
+                {{elseif $row->hidden() === 1}}
+                <span class="ipsBadge ipsBadge_icon ipsBadge_small ipsBadge_warning" data-ipsTooltip title='{lang="pending_approval"}'><i class='fa fa-warning'></i></span>
+                {{endif}}                          
+                {{if $row->mapped('pinned')}}
+                <span class="ipsBadge ipsBadge_icon ipsBadge_small ipsBadge_positive" data-ipsTooltip title='{lang="pinned"}'><i class='fa fa-thumb-tack'></i></span>
+                {{endif}}
+                {{if $row->mapped('featured')}}
+                <span class="ipsBadge ipsBadge_icon ipsBadge_small ipsBadge_positive" data-ipsTooltip title='{lang="featured"}'><i class='fa fa-star'></i></span>
+                {{endif}}
+            </span>
+            {{endif}}
+ 
+            <div class='ipsType_normal ipsType_break'>
+                {$row->customFieldDisplayByKey('summary', 'listing')|raw}
+            </div>
+            {{if $table->container()->can('add')}}
+            <div class='ipsType_normal ipsType_break'>
+                <a href='{$row->url('edit')->csrf()}' title='{lang="edit_title"}'>{lang="edit"}</a>
+            </div>
+            {{endif}}
+        </a>
+        <div class='ipsColumn ipsColumn_medium'>
+            <a href='#' class='c4StatusRow ipsAreaBackground_light {{if $row->fieldValues()['field_6'] == '4'}}ipsFaded{{endif}} ipsType_blendLinks {{if $row->hidden()}}ipsModerated{{endif}}' data-ipsDialog data-ipsDialog-title="{$row->_title}" data-ipsDialog-size='medium' data-ipsDialog-content='#el4StatusInfo_{$row->$idField}'>
+                <span class="c4StatusBadge c4StatusBadge_{{if $row->fieldValues()['field_6'] == '4'}}done{{elseif $row->fieldValues()['field_6'] == '3'}}future{{elseif $row->fieldValues()['field_6'] == '2'}}comingSoon{{elseif $row->fieldValues()['field_6'] == '1'}}upNext{{endif}}">{$row->customFieldDisplayByKey('status2', 'listing')|raw}</span>
+            </a>
+            {{if $row instanceof \IPS\Content\Reputation and settings.reputation_enabled}}
+            <div class='ipsSpacer_top ipsSpacer_half ipsType_center'>
+                {template="reputationMini" app="core" group="global" params="$row"}
+            </div>
+            {{endif}}
+        </div>
+    </div>
+    <div id='el4StatusInfo_{$row->$idField}' class='ipsHide'>
+        <div class='ipsPad ipsType_normal ipsType_break ipsType_contained ipsType_richText'>
+            {$row->content()|raw}
+        </div>
+    </div>
+</li>
+{{endforeach}}]]></template_content>
+ </template>
+</database>
